@@ -4,7 +4,7 @@
     background-color: rgb(255, 255, 255);
     padding: 10px;
     margin: 0px auto;
-    outline:auto;
+    outline:auto; 
 }
 .h1{
     font-size: 20px;
@@ -12,14 +12,18 @@
     text-align: center;
     
 }
-div.container div.top{
+.top{
     width: 670px;
-    
     background-color: rgb(44, 245, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
-div.container div.top div.img1{
-    display: inline-block;
+.img1{
+    display:flex;
+    align-items: center;
   
 }
 div.container div.middle{
@@ -27,14 +31,22 @@ div.container div.middle{
     background-color: rgb(255, 153, 245);
 }
 
-div.container div.middle div.img2{
+.img2{
     display: inline-block;
     margin-left: 60px;
 }
-div.container div.bottom div.img3{
-    display: inline-block;
+div.container div.bottom{
+    width: 670px;
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-div.container div.h2{
+.img3{
+    display: inline-block;
+   
+}
+ .h2{
     font-size: 6.5px;
     text-align: center;
 }
